@@ -1,9 +1,9 @@
 // nhập id của bản thân
-user_id = "1145030539074600970";
+user_id = "";
 // Tạo ứng dụng trên develop discord lấy id ứng dụng đó nhập vô
-application_id = "1207851471434031144";
+application_id = "";
 // Token bot, bot này k cần hoạt động vẫn chạy bth nhé
-access_token = "https://discord.com/oauth2/authorize?client_id=1207851471434031144&permissions=8&response_type=code&redirect_uri=http%3A%2F%2F103.237.87.240%3A3000%2Fapi%2Fauth%2Fcallback&scope=bot+rpc";
+access_token = "";
 const DiscordRPC = require('discord-rpc');
 const rpc = new DiscordRPC.Client({ transport: 'ipc' });
 let seconds = 0; // bạn setup số giây bắt đầu đếm như nào cũng đc
