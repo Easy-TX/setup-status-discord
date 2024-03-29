@@ -21,22 +21,22 @@ function formatTime(seconds) {
 rpc.on('ready', () => {
     console.log('Đã tạo trạng thái cho bản thân thành công!');
     karma = {
-        "label": "THAM GIA NGAY!!!",
-        "url": "https://discord.gg/karmacatholic2024"
+        "label": "WEBSITE!!!",
+        "url": "https://thanhxuan.xyz/"
     };
     voice = {
-        "label": "Nhấn vô đây!",
-        "url": "https://discord.gg/q2VGYGwCev"
+        "label": "CLICK HERE!",
+        "url": "https://thanhxuan.xyz/"
     };
     
 setInterval(() => {
         seconds++;
         let time = formatTime(seconds);
         rpc.setActivity({
-            state: "Diễn ra hàng ngày!!!",
-            details: "Giveaway, Minigame",
+            state: "Xem qua web tui ha!!!",
+            details: "Đì fau",
             largeImageKey: "image",
-            largeImageText: "Karma Catholic",
+            largeImageText: "Thanh Xuân",
             smallImageKey: "dayoi",
             smallImageText: "It's me!",
             instance: true, 
